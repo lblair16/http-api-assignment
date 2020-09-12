@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lblair16/http-api-assignment.git"
+  },
+  "author": "Lucas Blair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lblair16/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/lblair16/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
